@@ -513,6 +513,26 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <label for="subscribe-email" class="subscribe-label soc-title"
+            >Subscribe</label
+          >
+          <div class="email-container">
+            <input
+              type="email"
+              id="subscribe-email"
+              name="subscribe-email"
+              class="subscribe-input"
+              placeholder="E-mail"
+            />
+            <button type="button" class="btn subscribe-btn">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -522,6 +542,26 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="name-form">
+            <label class="modal-label">Name </label>
+            <div class="name-input">
+              <input type="text" name="name-modal" class="modal-input" />
+              <svg>
+                <use></use>
+              </svg>
+            </div>
+          </div>
+          <label class="modal-label"
+            >Phone
+            <input type="text" name="phone-modal" class="modal-input" />
+          </label>
+          <label class="modal-label"
+            >Email
+            <input type="text" name="email-modal" class="modal-input" />
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
